@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+/* Estos son mis fuentes, solo use 2 por que en la clase 3 dijo que se pueden usar solo dos fuentes */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* sirve para que se vea igual en todos los navegadores */
+}
+html, body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    padding: 20px;
+    background-image: linear-gradient(to right top, #d4dc18, #dad816, #dfd516, #e4d117, #e9cd19);
+}
+header ul{
+    display: inline;
+    
+}
+/* Editamos el header osea el navbar mas que nada, le di un color gradiente, no me gusto como quedo con el logo, debo cambiar el logo sin ese fondo amarillo */
+main{
+    flex: 1;
+}
+h1{
+    font-family: 'Roboto Slab', serif;
+    color: rgb(121, 9, 9);
+    text-align: center;
+    text-decoration:underline;
+    /* Agregamos fuente y la linea a los titulos de todas las paginas */
+}
+main article{
+    display: inline-block;
+    max-width: 30%;
+    padding: 20px;
+}
+main section article p{
+    max-height: 100px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+main{
+    margin-bottom: 100px;
+    display: inline;
+}
+main ol{
+    display: inline-block;
+    margin: 50px;
+    max-width: 500px;
+    padding: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+h2{
+    font-family: 'Roboto Slab', serif;
+    padding: 30px;
+}
+p{
+    font-family: 'Roboto Slab', serif;
+    padding: 20px;
+
+}
+button{
+    padding: 10px;
+}
+label{
+    font-family: 'Roboto Slab', serif;
+}
+footer{
+    
+    background-image: linear-gradient(to right top, #d4dc18, #dad816, #dfd516, #e4d117, #e9cd19);
+    width: 100%;
+    padding: 20px;
+    
+}
