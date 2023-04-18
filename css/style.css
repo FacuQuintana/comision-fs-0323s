@@ -7,24 +7,45 @@
     box-sizing: border-box;
     /* sirve para que se vea igual en todos los navegadores */
 }
-html, body{
+/* html, body{
     height: 100%;
-}
-body{
+} */
+/* body{
     display: flex;
     flex-direction: column;
-}
-header{
-    padding: 20px;
+    
+} */
+body .home{
+    /* height: 100vh; */
     background-image: linear-gradient(to right top, #d4dc18, #dad816, #dfd516, #e4d117, #e9cd19);
 }
-header ul{
+header{
+    height: 20vh;
+    padding: 20px;
+    /* background-image: linear-gradient(to right top, #d4dc18, #dad816, #dfd516, #e4d117, #e9cd19);  */
+}
+nav{
     display: inline;
+}
+nav ul{
+    display: inline;
+}
+nav li{
+    display: inline;
+    padding: 20px;
+    margin: 5px;
     
 }
+/* header ul{
+    display: inline;
+    
+} */
 /* Editamos el header osea el navbar mas que nada, le di un color gradiente, no me gusto como quedo con el logo, debo cambiar el logo sin ese fondo amarillo */
 main{
     flex: 1;
+}
+.home2{
+    height: 80vh;
 }
 h1{
     font-family: 'Roboto Slab', serif;
@@ -53,6 +74,10 @@ main ol{
     max-width: 500px;
     padding: 20px;
     font-family: 'Roboto Slab', serif;
+}
+.shaker1{
+    width: 20%;
+    height: auto;
 }
 
 h2{
